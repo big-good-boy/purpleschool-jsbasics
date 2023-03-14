@@ -4,5 +4,3 @@ function some(value, arr) {
 	const result = arr.findIndex(el => el === value);
 	return (result !== -1) ? true : false;
 }
-
-console.log(arr.some(el => el === 2));
